@@ -1,9 +1,18 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import Sidebar from '../../components/Sidebar';
+import Navbar from '../../components/Navbar';
+
+import { Container } from './styles';
 
 function Main() {
-  return <div>Main</div>;
+  return (
+    <Container>
+      <Sidebar />
+
+      <Navbar />
+    </Container>
+  );
 }
 
 export default Main;
