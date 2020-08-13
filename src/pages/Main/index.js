@@ -1,16 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import Sidebar from '../../components/Sidebar';
 import Navbar from '../../components/Navbar';
 
+import systemRoutes from '../../routes/SystemRoutes';
+
 import { Container } from './styles';
 
 function Main() {
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  const handleDrawerToggle = () => {
+    setMobileOpen(!mobileOpen);
+  }
   return (
     <Container>
-      <Sidebar />
+      <Sidebar 
+        routes={systemRoutes}
+        handleDrawerToggle={handleDrawerToggle}
+        open={mobileOpen}
+      />
 
-      <Navbar />
+      <Navbar 
+      routes={systemRoutes}
+      handleDrawerToggle={handleDrawerToggle}
+      />
     </Container>
   );
 }
