@@ -34,11 +34,11 @@
   <tr  style="text-align: center; margin: 0 auto; border: 0">
     <td style="text-align: center; border: 0">
       <p style="font-size: 24px">Desktop</p>
-      <img width="auto" height="500px" src="https://raw.githubusercontent.com/luanrem/adminsystem/master/src/assets/github/System.gif">
+      <img width="95%" height="auto" src="https://raw.githubusercontent.com/luanrem/adminsystem/master/src/assets/github/System.gif">
     </td>
     <td style="text-align: center; border: 0">
       <p style="font-size: 24px">Responsive/Mobile</p>
-      <img width="auto" height="500px" src="https://raw.githubusercontent.com/luanrem/adminsystem/master/src/assets/github/SystemResponsive.gif">
+      <img width="95%" height="auto" src="https://raw.githubusercontent.com/luanrem/adminsystem/master/src/assets/github/SystemResponsive.gif">
     </td>
   </tr>
 <table>
