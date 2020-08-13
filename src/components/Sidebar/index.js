@@ -41,7 +41,7 @@ export default function Sidebar(props) {
 
   var brand = (
     <div className="brand">
-      <a href="/system"><p>Missão Rama</p></a>
+      <a href="/system"><p>System</p></a>
     </div>
   );
 

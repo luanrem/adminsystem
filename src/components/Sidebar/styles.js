@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import { darken } from 'polished';
+
 import { drawerWidth, headerHeight } from '../../config/stylesconfig.js';
 
 
@@ -73,12 +75,18 @@ export const SideBarStyle = styled.div`
       justify-content: center;
       align-items: center;
 
+      background: ${darken(0.2, 'rgba(70,36,138,0.5)')};
+
       .itemIcon {
         color: white;
       }
       .itemText {
         color: white;
       }
+    }
+
+    .listItem:hover {
+      background: ${darken(0.9, 'rgba(70,36,138,0.5)')};
     }
   }
 `;
