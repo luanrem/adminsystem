@@ -8,6 +8,8 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 
+import SidebarProfile from '../SidebarProfile';
+
 import { Container, BackgroundSideImage, SideBarStyle } from './styles';
 import image from '../../assets/backgroundSidebar/background02.jpg'
 
@@ -60,6 +62,7 @@ export default function Sidebar(props) {
             <SideBarStyle>
               {brand}
               <hr className="divider" />
+              <SidebarProfile />
               {links}
             </SideBarStyle>
 
@@ -82,6 +85,7 @@ export default function Sidebar(props) {
             <SideBarStyle>
               {brand}
               <hr className="divider" />
+              <SidebarProfile />
               {links}
             </SideBarStyle>
 

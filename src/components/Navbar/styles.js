@@ -11,6 +11,7 @@ export const Container = styled.div`
 
   .appbar {
     width: calc(100vw - ${drawerWidth});
+    background: linear-gradient(90deg, rgba(5,3,13,1) 0%, rgba(70,36,138,1) 38%, rgba(175,32,192,1) 100%);
   }
 
   @media (max-width: 960px) {

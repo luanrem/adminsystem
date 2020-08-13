@@ -1,6 +1,6 @@
 const drawerWidth = "260px";
 
-const headerHeight = "50px";
+const headerHeight = "63px";
 
 export {
   drawerWidth,

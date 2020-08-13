@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { drawerWidth } from '../../config/stylesconfig.js';
+import { drawerWidth, headerHeight } from '../../config/stylesconfig.js';
 
 
 export const Container = styled.div`
@@ -38,7 +38,7 @@ export const SideBarStyle = styled.div`
 
   .brand {
     width: ${drawerWidth};
-    height: 65px;
+    height: ${headerHeight};
 
     display: flex;
     justify-content: center;
