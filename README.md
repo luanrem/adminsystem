@@ -1,68 +1,89 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    Admin System with React
+</h1>
 
-## Available Scripts
+<h4 align="center">
+  An admin system made with react. It's a project designed to develop my skills with React in creating more complex systems.
+</h4>
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/luanrem/adminsystem">
 
-In the project directory, you can run:
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/luanrem/adminsystem">
 
-### `yarn start`
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/luanrem/adminsystem">
+  <a href="https://github.com/luanrem/adminsystem/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/luanrem/adminsystem">
+  </a>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <a href="https://github.com/luanrem/adminsystem">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/luanrem/adminsystem">
+  </a>
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+<p align="center">
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+----
+## :vhs: App Preview
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<table boder="0" style="border: 0">
+  <tr  style="text-align: center; margin: 0 auto; border: 0">
+    <td style="text-align: center; border: 0">
+      <p style="font-size: 24px">Desktop</p>
+      <img width="auto" height="500px" src="https://raw.githubusercontent.com/luanrem/adminsystem/master/src/assets/github/System.gif">
+    </td>
+    <td style="text-align: center; border: 0">
+      <p style="font-size: 24px">Responsive/Mobile</p>
+      <img width="auto" height="500px" src="https://raw.githubusercontent.com/luanrem/adminsystem/master/src/assets/github/SystemResponsive.gif">
+    </td>
+  </tr>
+<table>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :rocket: Technologies
+<div id="rocket-technologies"></div>
+This project was developed by myself using the following technologies:
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [ReactJS](https://reactjs.org/)
+- [VS Code][vc]
+- [MATERIAL-UI](https://material-ui.com/pt/)
+- [Styled Components](https://styled-components.com)
+- [React Router Dom](https://reactrouter.com/web/guides/quick-start)
+- [React Perfect Scrollbar](https://github.com/goldenyz/react-perfect-scrollbar)
+- [Polished](https://polished.js.org)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- And another bunch of packages....
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## :information_source: How To Use
+<div id="information_source-how-to-use"></div>
+To clone and run this application, you'll need [Git](https://git-scm.com), [NPM][npm] + [Yarn v1.13][yarn] or higher installed on your computer.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+```bash
+# Clone this repository
+$ git clone https://github.com/luanrem/adminsystem.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Go into the repository
+$ cd adminsystem
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Install dependencies for the app
+$ yarn install
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+# Run the server
+$ yarn start
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
+[vc]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[npm]: https://www.npmjs.com
